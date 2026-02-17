@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header{
+    padding: 8px 350px 8px 350px;
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.link-center ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    font-size: large;
+}
+
+.logo{
+    border-radius: 20px;
+    color:black;
+    font-weight: bold;
+    padding:10px;
+    background-color:white;
+
+}
+.link-right{
+    gap: 10px;
+    display: flex;
+}
+
+
+.btn-connecter, .btn-inscrire{
+    border-radius: 14px;
+    font-size: 15px;
+   
+}
+.btn-connecter{ 
+    background-color: white;
+    padding: 6px;
+   
+}
+.btn-inscrire{
+    background-color: black;
+    padding: 6px;
+    border: 1px solid white;
+    color :white;
+}
